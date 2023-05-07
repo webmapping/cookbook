@@ -17,7 +17,7 @@
         };
         ```
 
-        | siehe Dokumentation [L.featureGroup()](https://leafletjs.com/reference.html#featuregroup)
+        > siehe Dokumentation [L.featureGroup()](https://leafletjs.com/reference.html#featuregroup)
 
 2. Einbau des Overlays in der Layercontrol
 
@@ -32,9 +32,9 @@
         }).addTo(map);
         ```
 
-        | Hinweis: `overlays.innsbruck.addTo(map)` bewirkt, dass dieses Overlay beim Laden auch direkt angezeigt wird. Es können so beliebig viele Overlays direkt angezeigt werden
-
-        | siehe Dokumentation [L.control.layers()](https://leafletjs.com/reference.html#control-layers) und [.addTo()](https://leafletjs.com/reference.html#featuregroup-addto)
+        > Hinweis: `overlays.innsbruck.addTo(map)` bewirkt, dass dieses Overlay beim Laden auch direkt angezeigt wird. Es können so beliebig viele Overlays direkt angezeigt werden
+        >
+        > siehe Dokumentation [L.control.layers()](https://leafletjs.com/reference.html#control-layers) und [.addTo()](https://leafletjs.com/reference.html#featuregroup-addto)
 
 3. den Innsbruck Marker in das passende Overlay schieben
 

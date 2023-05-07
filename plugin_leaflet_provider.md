@@ -26,7 +26,7 @@
         L.tileLayer.provider('Stamen.Watercolor').addTo(map);
         ```
 
-        | siehe Dokumentation [Leaflet-providers Usage](https://github.com/leaflet-extras/leaflet-providers#usage)
+        > siehe Dokumentation [Leaflet-providers Usage](https://github.com/leaflet-extras/leaflet-providers#usage)
 
     - über die Demoseite <http://leaflet-extras.github.io/leaflet-providers/preview/index.html> sind alle verfügbaren Tilelayer wählbar
 

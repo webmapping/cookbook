@@ -23,7 +23,7 @@
         }).addTo(map);
         ```
 
-        | siehe Dokumentation [L.control.layers()](https://leafletjs.com/reference.html#control-layers)
+        > siehe Dokumentation [L.control.layers()](https://leafletjs.com/reference.html#control-layers)
 
 2. Kombination des Orthofotos mit der Beschriftung
 
@@ -36,7 +36,7 @@
             ])
         ```
 
-        | siehe Dokumentation [L.layerGroup()](https://leafletjs.com/reference.html#layergroup)
+        > siehe Dokumentation [L.layerGroup()](https://leafletjs.com/reference.html#layergroup)
 
 ## Ergebnis
 

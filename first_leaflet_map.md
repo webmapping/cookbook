@@ -57,7 +57,7 @@
         map.setView([47.267222, 11.392778], 13);
         ```
 
-        | siehe Dokumentation [L.map()](https://leafletjs.com/reference.html#map) und [.setView()](https://leafletjs.com/reference.html#map-setview)
+        > siehe Dokumentation [L.map()](https://leafletjs.com/reference.html#map) und [.setView()](https://leafletjs.com/reference.html#map-setview)
 
     - einen WMTS Hintergrundlayer für die OpenStreetMap zur Karte hinzufügen
 
@@ -67,9 +67,9 @@
         }).addTo(map);
         ```
 
-        | siehe Dokumentation [L.tileLayer()](https://leafletjs.com/reference.html#tilelayer) und [.addTo()](https://leafletjs.com/reference.html#tilelayer-addto)
-
-        | Hinweis: bequemer Einbauen lassen sich Hintegrundlayer über das Leaflet Provider Plugin - [siehe Rezept hier ...](plugin_leaflet_provider)
+        > siehe Dokumentation [L.tileLayer()](https://leafletjs.com/reference.html#tilelayer) und [.addTo()](https://leafletjs.com/reference.html#tilelayer-addto)
+        >
+        > Hinweis: bequemer Einbauen lassen sich Hintegrundlayer über das Leaflet Provider Plugin - [siehe Rezept hier ...](plugin_leaflet_provider)
 
     - einen Marker mit Popup im Kartenmittelpunkt erstellen und das Popup öffnen
 
@@ -79,11 +79,11 @@
         marker.openPopup();
         ```
 
-        | siehe Dokumentation [L.marker()](https://leafletjs.com/reference.html#marker), [.addTo()](https://leafletjs.com/reference.html#marker-addto), [.bindPopup()](https://leafletjs.com/reference.html#marker-bindpopup) und  [.openPopup()](https://leafletjs.com/reference.html#marker-openpopup)
-
-        | Hinweis: im Popup sind auch HTML Formatierungen zulässig
-
-        | Hinweis: über Template-Syntax (z.B. \`Popup mit ${someVar}\`) sind im Popup auch Variablen verwendbar
+        > siehe Dokumentation [L.marker()](https://leafletjs.com/reference.html#marker), [.addTo()](https://leafletjs.com/reference.html#marker-addto), [.bindPopup()](https://leafletjs.com/reference.html#marker-bindpopup) und  [.openPopup()](https://leafletjs.com/reference.html#marker-openpopup)
+        >
+        > Hinweis: im Popup sind auch HTML Formatierungen zulässig
+        >
+        > Hinweis: über Template-Syntax (z.B. \`Popup mit ${someVar}\`) sind im Popup auch Variablen verwendbar
 
 ## Ergebnis
 
