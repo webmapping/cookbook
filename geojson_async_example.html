@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #map {
+            width: 90%;
+            height: 600px;
+            border: 1px solid silver
+        }
+    </style>
+
+    <!-- Leaflet Bibliothek -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+
+    <!-- Leaflet Provider -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-providers/1.13.0/leaflet-providers.js" integrity="sha512-pb9UiEEi2JIxkMloqYnqgONe9CTcp2BWWq1Hbz60l7f3R3VhZ57dEE58Ritf/HgBw3o/5Scf5gg0T9V+tf48fg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <title>Webmapping Cookbook: GeoJSON Daten asynchron laden und visualisieren</title>
+</head>
+
+<body>
+    <h1>GeoJSON Daten asynchron laden und visualisieren</h1>
+
+    <div id="map"></div>
+
+    <script>
+        let map = L.map("map");
+        map.setView([48.208493, 16.373118], 13);
+
+        let overlays = {
+            points: L.featureGroup(),
+            lines: L.featureGroup(),
+            zones: L.featureGroup()
+        };
+
+        L.control.layers({
+            "BasemapAT Grau": L.tileLayer.provider("BasemapAT.grau").addTo(map),
+            "BasemapAT Standard": L.tileLayer.provider("BasemapAT.basemap"),
+            "BasemapAT High-DPI": L.tileLayer.provider("BasemapAT.highdpi"),
+            "BasemapAT Gelände": L.tileLayer.provider("BasemapAT.terrain"),
+            "BasemapAT Oberfläche": L.tileLayer.provider("BasemapAT.surface"),
+            "BasemapAT Orthofoto": L.tileLayer.provider("BasemapAT.orthofoto"),
+            "BasemapAT Orthofoto mit Beschriftung": L.layerGroup([
+                L.tileLayer.provider("BasemapAT.orthofoto"),
+                L.tileLayer.provider("BasemapAT.overlay")
+            ])
+        }, {
+            "Vienna Sightseeing Haltestellen": overlays.points.addTo(map),
+            "Vienna Sightseeing Linien": overlays.lines.addTo(map),
+            "Fußgängerzonen": overlays.zones.addTo(map),
+        }).addTo(map);
+
+        async function loadGeoJSON(url, overlay) {
+            let response = await fetch(url);
+            let jsondata = await response.json();
+            L.geoJSON(jsondata).addTo(overlay);
+        }
+
+        loadGeoJSON(
+            "https://data.wien.gv.at/daten/geo?service=WFS&request=GetFeature&version=1.1.0&typeName=ogdwien:TOURISTIKHTSVSLOGD&srsName=EPSG:4326&outputFormat=json",
+            overlays.points
+        )
+        loadGeoJSON(
+            "https://data.wien.gv.at/daten/geo?service=WFS&request=GetFeature&version=1.1.0&typeName=ogdwien:TOURISTIKLINIEVSLOGD&srsName=EPSG:4326&outputFormat=json",
+            overlays.lines
+        )
+        loadGeoJSON(
+            "https://data.wien.gv.at/daten/geo?service=WFS&request=GetFeature&version=1.1.0&typeName=ogdwien:FUSSGEHERZONEOGD&srsName=EPSG:4326&outputFormat=json",
+            overlays.zones
+        )
+    </script>
+
+    <nav>
+        <a href="https://webmapping.github.io/cookbook/geojson_async">Rezept</a> |
+        <a href="https://webmapping.github.io/cookbook/index">Inhaltsverzeichnis</a>
+    </nav>
+
+</body>
+
+</html>
