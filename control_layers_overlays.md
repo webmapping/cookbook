@@ -6,7 +6,7 @@
 
 ## Ablauf
 
-1. Initialisieren dea Overlays
+1. Initialisieren des Overlays
 
     - die gewünschten Overlay Layer vor der Layercontrol als `L.featureGroup` in einem Objekt `overlays` initialisieren
 
