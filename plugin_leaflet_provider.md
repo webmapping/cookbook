@@ -2,7 +2,7 @@
 
 ## Zutaten
 
-- das Resultat vom Rezept ["Erste Leaflet Karte mit Marker und Popup"](https://webmapping.github.io/cookbook/first_leaflet_map)
+- das Resultat vom Rezept [Erste Leaflet Karte mit Marker und Popup](https://webmapping.github.io/cookbook/first_leaflet_map) ([siehe Source](https://github.com/webmapping/cookbook/blob/main/first_leaflet_map_example.html))
 - das Leaflet Provider Plugin unter <https://github.com/leaflet-extras/leaflet-providers>
 
 ## Ablauf
@@ -58,7 +58,7 @@
 
 ## Ergebnis
 
-[Leaflet Provider Plugin für Hintergrundlayer verwenden](https://webmapping.github.io/cookbook/plugin_leaflet_provider_example.html)
+[Leaflet Provider Plugin für Hintergrundlayer verwenden](https://webmapping.github.io/cookbook/plugin_leaflet_provider_example.html) ([Source](https://github.com/webmapping/cookbook/blob/main/plugin_leaflet_provider_example.html))
 
 ___
 [Inhaltsverzeichnis](https://webmapping.github.io/cookbook/index)
