@@ -87,7 +87,7 @@
 
 ## Ergebnis
 
-[Erste Leaflet Karte mit Marker und Popup](https://webmapping.github.io/cookbook/first_leaflet_map.html)
+[Erste Leaflet Karte mit Marker und Popup](https://webmapping.github.io/cookbook/first_leaflet_map_example.html)
 
 ___
 [Inhaltsverzeichnis](https://webmapping.github.io/cookbook/index)
