@@ -2,7 +2,7 @@
 
 ## Zutaten
 
-- das Resultat vom Rezept [Leaflet Provider Plugin für Hintergrundlayer verwenden](https://webmapping.github.io/cookbook/plugin_leaflet_provider) - ([siehe Source](https://github.com/webmapping/cookbook/blob/main/plugin_leaflet_provider_example.html))
+- das Resultat vom Rezept [Leaflet Provider Plugin für Hintergrundlayer verwenden](https://webmapping.github.io/cookbook/plugin_leaflet_provider) ([siehe Source](https://github.com/webmapping/cookbook/blob/main/plugin_leaflet_provider_example.html))
 - WMTS Hintergrundlayer der <https://basemap.at> über das Leaflet Provider Plugin
 
 ## Ablauf
