@@ -5,4 +5,4 @@
 - [Leaflet Provider Plugin für Hintergrundlayer verwenden](https://webmapping.github.io/cookbook/plugin_leaflet_provider)
 - [Layer Control für Hintergrundlayer der basemap.at](https://webmapping.github.io/cookbook/control_layers_baselayers)
 - [Layer Control für Overlays](https://webmapping.github.io/cookbook/control_layers_overlays)
-- [GeoJSON Daten asynchron laden und visualisieren](https://webmapping.github.io/cookbook/geojson_async.md)
+- [GeoJSON Daten asynchron laden und visualisieren](https://webmapping.github.io/cookbook/geojson_async)
