@@ -1,7 +1,5 @@
 # GeoJSON Daten asynchron laden und visualisieren
 
-> Eine Funktion zum asynchronen Laden und Visualieren einer GeoJSON Datei über das Web mit Hilfe von Javascript und der Leafletbibliothek. Alle Attribute der GeoJSON Datei werden in Popups dargestellt.
-
 ## Zutaten
 
 - das Resultat vom Rezept  [Layer Control für Overlays](https://webmapping.github.io/cookbook/control_layers_overlays) ([Source](https://github.com/webmapping/cookbook/blob/main/control_layers_overlays_example.html))
@@ -60,7 +58,7 @@
     }
     ```
 
-    > Hinweis: als Argumente werden die URL zum Datensatz und das Overlay an die funktion übergeben
+    > Hinweis: als Argumente werden die URL zum Datensatz und das Overlay an die Funktion übergeben
     >
     > siehe Dokumentation [async function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function), [fetch](https://developer.mozilla.org/en-US/docs/Web/API/fetch), [L.geoJSON()](https://leafletjs.com/reference.html#geojson) und [.addTo()](https://leafletjs.com/reference.html#geojson-addto)
 
