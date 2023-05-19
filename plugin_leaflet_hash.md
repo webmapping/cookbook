@@ -1,8 +1,8 @@
-# Leaflet-hash Plugin implementieren
+# Leaflet-hash Plugin
 
 ## Zutaten
 
-- das Resultat vom Rezept [Leaflet Provider Plugin für Hintergrundlayer verwenden](https://webmapping.github.io/cookbook/plugin_leaflet_provider) ([siehe Source](https://github.com/webmapping/cookbook/blob/main/plugin_leaflet_provider_example.html))
+- das Resultat vom Rezept [Leaflet Provider Plugin für Hintergrundlayer](https://webmapping.github.io/cookbook/plugin_leaflet_provider) ([siehe Source](https://github.com/webmapping/cookbook/blob/main/plugin_leaflet_provider_example.html))
 - das Leaflet-hash Plugin unter <https://github.com/mlevans/leaflet-hash>
 
 ## Ablauf
@@ -32,7 +32,7 @@
 
 ## Ergebnis
 
-[Leaflet-hash Plugin implementieren](https://webmapping.github.io/cookbook/plugin_leaflet_hash_example.html) ([Source](https://github.com/webmapping/cookbook/blob/main/plugin_leaflet_hash_example.html))
+[Leaflet-hash Plugin Beispiel](https://webmapping.github.io/cookbook/plugin_leaflet_hash_example.html) ([Source](https://github.com/webmapping/cookbook/blob/main/plugin_leaflet_hash_example.html))
 
 ___
 [Inhaltsverzeichnis](https://webmapping.github.io/cookbook/index)

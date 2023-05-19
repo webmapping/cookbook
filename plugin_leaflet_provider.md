@@ -1,4 +1,4 @@
-# Leaflet Provider Plugin für Hintergrundlayer verwenden
+# Leaflet Provider Plugin für Hintergrundlayer
 
 ## Zutaten
 
@@ -58,7 +58,7 @@
 
 ## Ergebnis
 
-[Leaflet Provider Plugin für Hintergrundlayer verwenden](https://webmapping.github.io/cookbook/plugin_leaflet_provider_example.html) ([Source](https://github.com/webmapping/cookbook/blob/main/plugin_leaflet_provider_example.html))
+[Leaflet Provider Plugin für Hintergrundlayer Beispiel](https://webmapping.github.io/cookbook/plugin_leaflet_provider_example.html) ([Source](https://github.com/webmapping/cookbook/blob/main/plugin_leaflet_provider_example.html))
 
 ___
 [Inhaltsverzeichnis](https://webmapping.github.io/cookbook/index)

@@ -89,7 +89,7 @@
 
 ## Ergebnis
 
-[GeoJSON Daten asynchron laden und visualisieren](https://webmapping.github.io/cookbook/geojson_async_example.html) ([Source](https://github.com/webmapping/cookbook/blob/main/geojson_async_example.html))
+[GeoJSON Daten asynchron laden und visualisieren Beispiel](https://webmapping.github.io/cookbook/geojson_async_example.html) ([Source](https://github.com/webmapping/cookbook/blob/main/geojson_async_example.html))
 
 ___
 [Inhaltsverzeichnis](https://webmapping.github.io/cookbook/index)

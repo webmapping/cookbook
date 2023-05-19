@@ -46,7 +46,7 @@
 
 ## Ergebnis
 
-[Layer Control für Overlays](https://webmapping.github.io/cookbook/control_layers_overlays_example.html) ([Source](https://github.com/webmapping/cookbook/blob/main/control_layers_overlays_example.html))
+[Layer Control für Overlays Beispiel](https://webmapping.github.io/cookbook/control_layers_overlays_example.html) ([Source](https://github.com/webmapping/cookbook/blob/main/control_layers_overlays_example.html))
 
 ___
 [Inhaltsverzeichnis](https://webmapping.github.io/cookbook/index)

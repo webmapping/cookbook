@@ -1,8 +1,8 @@
-# Leaflet.fullscreen Plugin implementieren
+# Leaflet.fullscreen Plugin
 
 ## Zutaten
 
-- das Resultat vom Rezept [Leaflet Provider Plugin für Hintergrundlayer verwenden](https://webmapping.github.io/cookbook/plugin_leaflet_provider) ([siehe Source](https://github.com/webmapping/cookbook/blob/main/plugin_leaflet_provider_example.html))
+- das Resultat vom Rezept [Leaflet Provider Plugin für Hintergrundlayer](https://webmapping.github.io/cookbook/plugin_leaflet_provider) ([siehe Source](https://github.com/webmapping/cookbook/blob/main/plugin_leaflet_provider_example.html))
 - das Leaflet.fullscreen Plugin unter <https://github.com/Leaflet/Leaflet.fullscreen>
 
 ## Ablauf
@@ -33,7 +33,7 @@
 
 ## Ergebnis
 
-[Leaflet.fullscreen Plugin implementieren](https://webmapping.github.io/cookbook/plugin_leaflet_fullscreen_example.html) ([Source](https://github.com/webmapping/cookbook/blob/main/plugin_leaflet_fullscreen_example.html))
+[Leaflet.fullscreen Plugin Beispiel](https://webmapping.github.io/cookbook/plugin_leaflet_fullscreen_example.html) ([Source](https://github.com/webmapping/cookbook/blob/main/plugin_leaflet_fullscreen_example.html))
 
 ___
 [Inhaltsverzeichnis](https://webmapping.github.io/cookbook/index)
