@@ -9,3 +9,4 @@
 ## Plugins
 
 - [Leaflet Provider Plugin für Hintergrundlayer verwenden](https://webmapping.github.io/cookbook/plugin_leaflet_provider)
+- [Leaflet.fullscreen Plugin implementieren](https://webmapping.github.io/cookbook/plugin_leaflet_fullscreen)
