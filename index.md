@@ -11,3 +11,4 @@
 - [Leaflet Provider Plugin für Hintergrundlayer](https://webmapping.github.io/cookbook/plugin_leaflet_provider)
 - [Leaflet.fullscreen Plugin](https://webmapping.github.io/cookbook/plugin_leaflet_fullscreen)
 - [Leaflet-hash Plugin](https://webmapping.github.io/cookbook/plugin_leaflet_hash)
+- [Leaflet.MiniMap Plugin](https://webmapping.github.io/cookbook/plugin_leaflet_minimap)

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #map {
+            width: 90%;
+            height: 600px;
+            border: 1px solid silver
+        }
+    </style>
+
+    <!-- Leaflet Bibliothek -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+
+    <!-- Leaflet Provider -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-providers/1.13.0/leaflet-providers.js" integrity="sha512-pb9UiEEi2JIxkMloqYnqgONe9CTcp2BWWq1Hbz60l7f3R3VhZ57dEE58Ritf/HgBw3o/5Scf5gg0T9V+tf48fg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Leaflet.MiniMap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-minimap/3.6.1/Control.MiniMap.min.js" integrity="sha512-WL3nAJlWFKoDShduxQRyY3wkBnQsINXdIfWIW48ZaPgYz1wYNnxIwFMMgigzSgjNBC2WWZ8Y8/sSyUU6abuF0g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet-minimap/3.6.1/Control.MiniMap.min.css" integrity="sha512-qm+jY0iQ4Xf5RL79UB75REDLYD0jtvxxVZp2RVIW8sm8RNiHdeN43oksqUPrBIshJtQcVPrAL08ML2Db8fFZiA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Webmapping Cookbook: Leaflet.MiniMap Plugin</title>
+</head>
+
+<body>
+    <h1>Leaflet.MiniMap Plugin</h1>
+
+    <div id="map"></div>
+
+    <script>
+        let map = L.map("map");
+        map.setView([47.267222, 11.392778], 13);
+
+        L.tileLayer.provider('BasemapAT.basemap').addTo(map);
+
+        let marker = L.marker([47.267222, 11.392778]).addTo(map);
+        marker.bindPopup("Innsbruck");
+        marker.openPopup();
+
+        let miniMap = new L.Control.MiniMap(
+            L.tileLayer.provider("BasemapAT.basemap"), {
+                toggleDisplay: true
+            }
+        ).addTo(map);
+
+    </script>
+
+    <nav>
+        <a href="https://webmapping.github.io/cookbook/plugin_leaflet_minimap">Rezept</a> |
+        <a href="https://webmapping.github.io/cookbook/index">Inhaltsverzeichnis</a>
+    </nav>
+
+</body>
+
+</html>
