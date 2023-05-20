@@ -5,6 +5,7 @@
 - [Layer Control für Hintergrundlayer der basemap.at](https://webmapping.github.io/cookbook/control_layers_baselayers)
 - [Layer Control für Overlays](https://webmapping.github.io/cookbook/control_layers_overlays)
 - [GeoJSON Daten asynchron laden und visualisieren](https://webmapping.github.io/cookbook/geojson_async)
+- [Farbige Icons für eine Karte erstellen](https://webmapping.github.io/cookbook/colored_map_icons)
 
 ## Plugins
 
