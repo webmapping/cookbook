@@ -2,7 +2,7 @@
 
 ## Zutaten
 
-- das Resultat vom Rezept [Layer Control für Hintergrundlayer der basemap.at](https://webmapping.github.io/cookbook/control_layers_baselayers) ([siehe Source](https://github.com/webmapping/cookbook/blob/main/control_layers_baselayers_example.html))
+- das Resultat vom Rezept [Layer Control für Hintergrundlayer der basemap.at](https://webmapping.github.io/cookbook/control_layers_baselayers) ([siehe Source](https://github.com/webmapping/cookbook/blob/main/examples/control_layers_baselayers.html))
 
 ## Ablauf
 
@@ -46,7 +46,7 @@
 
 ## Ergebnis
 
-[Layer Control für Overlays Beispiel](https://webmapping.github.io/cookbook/control_layers_overlays_example.html) ([Source](https://github.com/webmapping/cookbook/blob/main/control_layers_overlays_example.html))
+[Layer Control für Overlays Beispiel](https://webmapping.github.io/cookbook/examples/control_layers_overlays.html) ([Source](https://github.com/webmapping/cookbook/blob/main/examples/control_layers_overlays.html))
 
 ___
 [Inhaltsverzeichnis](https://webmapping.github.io/cookbook/index)

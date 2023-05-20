@@ -2,7 +2,7 @@
 
 ## Zutaten
 
-- das Resultat vom Rezept  [Layer Control für Overlays](https://webmapping.github.io/cookbook/control_layers_overlays) ([Source](https://github.com/webmapping/cookbook/blob/main/control_layers_overlays_example.html))
+- das Resultat vom Rezept  [Layer Control für Overlays](https://webmapping.github.io/cookbook/control_layers_overlays) ([Source](https://github.com/webmapping/cookbook/blob/main/examples/control_layers_overlays.html))
 - Open Government Daten der Stadt Wien
 - Javascript `async function` mit `fetch`, `await` und `json`
 - Leaflet `L.geoJSON()`
@@ -86,7 +86,7 @@
 
 ## Ergebnis
 
-[GeoJSON Daten asynchron laden und visualisieren Beispiel](https://webmapping.github.io/cookbook/geojson_async_example.html) ([Source](https://github.com/webmapping/cookbook/blob/main/geojson_async_example.html))
+[GeoJSON Daten asynchron laden und visualisieren Beispiel](https://webmapping.github.io/cookbook/examples/geojson_async.html) ([Source](https://github.com/webmapping/cookbook/blob/main/examples/geojson_async.html))
 
 ___
 [Inhaltsverzeichnis](https://webmapping.github.io/cookbook/index)
