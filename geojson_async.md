@@ -17,13 +17,13 @@
         map.setView([48.208493, 16.373118], 13);
         ```
 
-    - den Code für die Marker mit Popup löschen
+    - den Code für die bestehenden Marker mit Popup löschen
 
         ~~`let marker = L.marker([47.267222, 11.392778]).addTo(overlays.innsbruck);`~~  
         ~~`marker.bindPopup("Innsbruck");`~~  
         ~~`marker.openPopup();`~~  
 
-    - drei neue Overlays definieren
+    - die bestehenden Overlays durch drei neue Overlays ersetzen
 
         ```javascript
         let overlays = {
@@ -33,7 +33,7 @@
         };
         ```
 
-    - die neuen Overlays zur Layercontrol hinzufügen
+    - die bestehenden Overlays in der Layercontrol durch drei neue ersetzen
 
         ```javascript
         L.control.layers({
