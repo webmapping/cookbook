@@ -9,7 +9,7 @@
 
 1. Einbau der Hintergrundlayer
 
-    - den bestehenden `L.tileLayer.provider` Aufruf durch einen Aufruf von `L.control.layers` ersetzen
+    - den bestehenden `L.tileLayer.provider` Aufruf durch einen Aufruf von `L.control.layers` mit sieben `L.tileLayer.provider` Aufrufen für die <https://basemap.at> ersetzen
 
         ```javascript
         L.control.layers({
