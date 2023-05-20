@@ -17,14 +17,11 @@
         map.setView([48.208493, 16.373118], 13);
         ```
 
-    - den einzelnen Marker mit Popup löschen
+    - den Code für die Marker mit Popup löschen
 
-        ```javascript
-        // diese drei Zeilen löschen
-        let marker = L.marker([47.267222, 11.392778]).addTo(overlays.innsbruck);
-        marker.bindPopup("Innsbruck");
-        marker.openPopup();
-        ```
+        ~~`let marker = L.marker([47.267222, 11.392778]).addTo(overlays.innsbruck);`~~  
+        ~~`marker.bindPopup("Innsbruck");`~~  
+        ~~`marker.openPopup();`~~  
 
     - drei neue Overlays definieren
 
